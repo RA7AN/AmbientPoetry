@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		026C503F174371A75FE84123 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8543F90C7040D2516F8971EC /* AppState.swift */; };
+		097A68176242E3B14CA88A5F /* ExperienceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E0C0158B898A5DB816881F /* ExperienceView.swift */; };
+		0BCB0534CCFEADE791D99E2A /* PoemLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74D45487849C6BF71AC8459 /* PoemLoader.swift */; };
+		1FE57CF1B3ECC7E2805D2D2C /* Experience.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF936E7DBD3765A157D77E78 /* Experience.swift */; };
+		2B47A422AA55C76FCB4981D5 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFC23106DB0FC6D7D6E5299 /* SettingsView.swift */; };
+		2FAD831EFF0A1FFDA1E22801 /* AnimationStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8288475E38CCFBEC937473 /* AnimationStyle.swift */; };
+		43D1285254837B31E3AECF38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE10AD42F2E23840B3CDAB2D /* Assets.xcassets */; };
+		4C8C55F17BA2DAA2BCEAF324 /* LaunchAtLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 5FE7ACD57B75D4692D6ED4EB /* LaunchAtLogin */; };
+		7616BB904AE0FF8F94D197E6 /* if-kipling.json in Resources */ = {isa = PBXBuildFile; fileRef = 68C63DD32316EA6151A62366 /* if-kipling.json */; };
+		7E26B7BEE1BC116456714642 /* PoetryAnimationEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF08B18CBC2E00BC2AFE6D5 /* PoetryAnimationEngine.swift */; };
+		8101A2B996EB5EEE7E20E891 /* ATTRIBUTION.md in Resources */ = {isa = PBXBuildFile; fileRef = D16961967A366341D8046512 /* ATTRIBUTION.md */; };
+		8703F1DD00D3DC9CD2AEA831 /* city-night.png in Resources */ = {isa = PBXBuildFile; fileRef = 084136184C6075DA9270A247 /* city-night.png */; };
+		89216AC53E05F6422EA1475A /* DesktopWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A6B12D2AAFECE89F43EC26 /* DesktopWindowController.swift */; };
+		CBE250FFC7DC0DF85852540B /* PoetryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3306ABE2F54B4B0F61A12314 /* PoetryView.swift */; };
+		CEEC5F658F0A2EAF3CAE648B /* AmbientPoetryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EA19B1C9DB578299440F22 /* AmbientPoetryApp.swift */; };
+		EB178D6AE6E14239466866EA /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B275992B00C851DAFC6AB02 /* BackgroundView.swift */; };
+		F14710039ABE518644EB9909 /* Poem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5FF61FFED956258E459280 /* Poem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		084136184C6075DA9270A247 /* city-night.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "city-night.png"; sourceTree = "<group>"; };
+		3306ABE2F54B4B0F61A12314 /* PoetryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoetryView.swift; sourceTree = "<group>"; };
+		5BFC23106DB0FC6D7D6E5299 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		5F7F35A6B8E9EE63D6CDE789 /* AmbientPoetry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmbientPoetry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68C63DD32316EA6151A62366 /* if-kipling.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "if-kipling.json"; sourceTree = "<group>"; };
+		8543F90C7040D2516F8971EC /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		88E0C0158B898A5DB816881F /* ExperienceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceView.swift; sourceTree = "<group>"; };
+		8B275992B00C851DAFC6AB02 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		92EA19B1C9DB578299440F22 /* AmbientPoetryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbientPoetryApp.swift; sourceTree = "<group>"; };
+		93A6B12D2AAFECE89F43EC26 /* DesktopWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesktopWindowController.swift; sourceTree = "<group>"; };
+		9C27523CDE2CA7F05401911B /* AmbientPoetry.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AmbientPoetry.entitlements; sourceTree = "<group>"; };
+		B559F680E90D4E15F9696026 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B74D45487849C6BF71AC8459 /* PoemLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoemLoader.swift; sourceTree = "<group>"; };
+		BC5FF61FFED956258E459280 /* Poem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poem.swift; sourceTree = "<group>"; };
+		BE10AD42F2E23840B3CDAB2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF936E7DBD3765A157D77E78 /* Experience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experience.swift; sourceTree = "<group>"; };
+		D16961967A366341D8046512 /* ATTRIBUTION.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ATTRIBUTION.md; sourceTree = "<group>"; };
+		DC8288475E38CCFBEC937473 /* AnimationStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationStyle.swift; sourceTree = "<group>"; };
+		DEF08B18CBC2E00BC2AFE6D5 /* PoetryAnimationEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoetryAnimationEngine.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C616BA2F7813E923FF728BB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C8C55F17BA2DAA2BCEAF324 /* LaunchAtLogin in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09C3BF3A636E7417C805DF81 /* AmbientPoetry */ = {
+			isa = PBXGroup;
+			children = (
+				9C27523CDE2CA7F05401911B /* AmbientPoetry.entitlements */,
+				BE10AD42F2E23840B3CDAB2D /* Assets.xcassets */,
+				B559F680E90D4E15F9696026 /* Info.plist */,
+				6C11FF18B180B8E4DCBE3E8E /* App */,
+				4FE617C83A5E85221E65B07A /* Desktop */,
+				CC710514F3C173D83E44C3EF /* Engine */,
+				E268F411B2A7ABE7BBDB4A2A /* Experience */,
+				B1324BA1C2C939E49B2E027F /* Views */,
+			);
+			path = AmbientPoetry;
+			sourceTree = "<group>";
+		};
+		4FE617C83A5E85221E65B07A /* Desktop */ = {
+			isa = PBXGroup;
+			children = (
+				93A6B12D2AAFECE89F43EC26 /* DesktopWindowController.swift */,
+			);
+			path = Desktop;
+			sourceTree = "<group>";
+		};
+		55B19ACF94DE3180728C30BE /* Backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				D16961967A366341D8046512 /* ATTRIBUTION.md */,
+				084136184C6075DA9270A247 /* city-night.png */,
+			);
+			path = Backgrounds;
+			sourceTree = "<group>";
+		};
+		6A2C15F95758A825778DE216 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				55B19ACF94DE3180728C30BE /* Backgrounds */,
+				765E95E79C9E1BC12ECCF932 /* Poems */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6C11FF18B180B8E4DCBE3E8E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				92EA19B1C9DB578299440F22 /* AmbientPoetryApp.swift */,
+				8543F90C7040D2516F8971EC /* AppState.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		765E95E79C9E1BC12ECCF932 /* Poems */ = {
+			isa = PBXGroup;
+			children = (
+				68C63DD32316EA6151A62366 /* if-kipling.json */,
+			);
+			path = Poems;
+			sourceTree = "<group>";
+		};
+		B1324BA1C2C939E49B2E027F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8B275992B00C851DAFC6AB02 /* BackgroundView.swift */,
+				88E0C0158B898A5DB816881F /* ExperienceView.swift */,
+				3306ABE2F54B4B0F61A12314 /* PoetryView.swift */,
+				5BFC23106DB0FC6D7D6E5299 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C4CF2DE063DEEBE884D9DD5A = {
+			isa = PBXGroup;
+			children = (
+				09C3BF3A636E7417C805DF81 /* AmbientPoetry */,
+				6A2C15F95758A825778DE216 /* Resources */,
+				F116EED2ECF83C058292CB88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC710514F3C173D83E44C3EF /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				DC8288475E38CCFBEC937473 /* AnimationStyle.swift */,
+				DEF08B18CBC2E00BC2AFE6D5 /* PoetryAnimationEngine.swift */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		E268F411B2A7ABE7BBDB4A2A /* Experience */ = {
+			isa = PBXGroup;
+			children = (
+				BF936E7DBD3765A157D77E78 /* Experience.swift */,
+				BC5FF61FFED956258E459280 /* Poem.swift */,
+				B74D45487849C6BF71AC8459 /* PoemLoader.swift */,
+			);
+			path = Experience;
+			sourceTree = "<group>";
+		};
+		F116EED2ECF83C058292CB88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F7F35A6B8E9EE63D6CDE789 /* AmbientPoetry.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2409466F9A8FFBE8C25C3FD4 /* AmbientPoetry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECF7615622B92AA0D407D8AB /* Build configuration list for PBXNativeTarget "AmbientPoetry" */;
+			buildPhases = (
+				4FC078BB9C30CA74E12FD613 /* Sources */,
+				38041C9E81A5138680FF86B8 /* Resources */,
+				C616BA2F7813E923FF728BB9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmbientPoetry;
+			packageProductDependencies = (
+				5FE7ACD57B75D4692D6ED4EB /* LaunchAtLogin */,
+			);
+			productName = AmbientPoetry;
+			productReference = 5F7F35A6B8E9EE63D6CDE789 /* AmbientPoetry.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9A55D57E46CC041F97DCFAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					2409466F9A8FFBE8C25C3FD4 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B130F3DF0B4D79066C3BA279 /* Build configuration list for PBXProject "AmbientPoetry" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = C4CF2DE063DEEBE884D9DD5A;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				16E1716D808084333079598C /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F116EED2ECF83C058292CB88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2409466F9A8FFBE8C25C3FD4 /* AmbientPoetry */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38041C9E81A5138680FF86B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8101A2B996EB5EEE7E20E891 /* ATTRIBUTION.md in Resources */,
+				43D1285254837B31E3AECF38 /* Assets.xcassets in Resources */,
+				8703F1DD00D3DC9CD2AEA831 /* city-night.png in Resources */,
+				7616BB904AE0FF8F94D197E6 /* if-kipling.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FC078BB9C30CA74E12FD613 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEEC5F658F0A2EAF3CAE648B /* AmbientPoetryApp.swift in Sources */,
+				2FAD831EFF0A1FFDA1E22801 /* AnimationStyle.swift in Sources */,
+				026C503F174371A75FE84123 /* AppState.swift in Sources */,
+				EB178D6AE6E14239466866EA /* BackgroundView.swift in Sources */,
+				89216AC53E05F6422EA1475A /* DesktopWindowController.swift in Sources */,
+				1FE57CF1B3ECC7E2805D2D2C /* Experience.swift in Sources */,
+				097A68176242E3B14CA88A5F /* ExperienceView.swift in Sources */,
+				F14710039ABE518644EB9909 /* Poem.swift in Sources */,
+				0BCB0534CCFEADE791D99E2A /* PoemLoader.swift in Sources */,
+				7E26B7BEE1BC116456714642 /* PoetryAnimationEngine.swift in Sources */,
+				CBE250FFC7DC0DF85852540B /* PoetryView.swift in Sources */,
+				2B47A422AA55C76FCB4981D5 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		08EF6E141ACC4251822889B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Ambient Poetry";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 RA7AN. MIT License.";
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 0.3.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "Ambient Poetry";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		0BDD6C20A3B3B2229A58EE8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AmbientPoetry/AmbientPoetry.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AmbientPoetry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ra7an.AmbientPoetry;
+				PRODUCT_NAME = "Ambient Poetry";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2CF7A7A88E4A25BEE4B5B235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Ambient Poetry";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 RA7AN. MIT License.";
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 0.3.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "Ambient Poetry";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		73235D03B5AB9B85E5E2E954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AmbientPoetry/AmbientPoetry.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AmbientPoetry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ra7an.AmbientPoetry;
+				PRODUCT_NAME = "Ambient Poetry";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B130F3DF0B4D79066C3BA279 /* Build configuration list for PBXProject "AmbientPoetry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CF7A7A88E4A25BEE4B5B235 /* Debug */,
+				08EF6E141ACC4251822889B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		ECF7615622B92AA0D407D8AB /* Build configuration list for PBXNativeTarget "AmbientPoetry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BDD6C20A3B3B2229A58EE8D /* Debug */,
+				73235D03B5AB9B85E5E2E954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		16E1716D808084333079598C /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/LaunchAtLogin-Modern";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5FE7ACD57B75D4692D6ED4EB /* LaunchAtLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 16E1716D808084333079598C /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */;
+			productName = LaunchAtLogin;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A9A55D57E46CC041F97DCFAC /* Project object */;
+}
