@@ -21,6 +21,9 @@ xcuserdata/
 *.p12
 *.mobileprovision
 
+# Local-only UAT logs (not pushed)
+uat/
+
 # Archives
 *.ipa
 *.dSYM.zip
